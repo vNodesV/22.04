@@ -1,0 +1,6 @@
+#!/bin/bash
+runInstall=command apt install
+basicReq=(make gcc git jq net-tools network-manager speedtest-cli bash-completion zip tar lz4)
+valBasics=(make gcc git jq net-tools speedtest-cli zip tar lz4)
+
+

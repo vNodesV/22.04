@@ -1,0 +1,3 @@
+#!/bin/bash
+sourcePath=$(dirname "$0")/src
+getGoing=command sudo bash go
