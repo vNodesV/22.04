@@ -9,6 +9,7 @@ function uptHostname() {
 function deployBase() {
     echo "Installing ${#basicReq[@]} Basic Requirements: ${basicReq[@]}"
     sleep 1
+    sudo apt update && sudo apt upgrade -y 
     for ea in "${basicReq[@]}"; do
         if command -v "$ea" &>/dev/null; then
             echo "$ea already installed, moving on!"
